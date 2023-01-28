@@ -11,3 +11,7 @@
   machine. When a gitpod workspace fires up, it builds your system and then allows you to pull, change, commit, merge, push with your repository.
 21 Jan 2023 - github.dev is a lightweight editor tool provided by github that allows you to navigate files in github and also pull, edit, and commit files.
 I'm doing that now with this file. Note that I can also just raw command-line edit this file without the file browser of github.dev
+27 Jan 2023 - gitpod. I added a badge to my README.md to open my gitpodtest repository in gitpod. I simply put the URL of the gitpodtest repository in
+the link of the badge.
+27 Jan 2023 - gitpod/github. I updated my C programs to have a directory of C progs with 2 examples, the helloWorld.c, and the adder2.c example from
+the Dive Into Systems textbook, section 7.1.
