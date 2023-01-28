@@ -1,0 +1,2 @@
+27 Jan 2023 - I used gcc -S to produce the file adder.s, the assembly code. Then I successfully used gcc on the
+adder.s file to produce a runnable code!
