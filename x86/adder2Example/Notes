@@ -1,0 +1,6 @@
+06 Feb 2023
+The adder2.s and adder2Stripped.s are created with gcc and assembled with gcc on my MacBook.
+The adder2pod.s and adder2podStripped.s are created with gcc and assembled with gcc in gitpod.
+
+06 Feb 2023
+The example is from Dive Into Systems Ch 7.1
