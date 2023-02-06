@@ -1,17 +1,24 @@
+05 Feb 2023 - I put jasmin programs in a separate directory, cprogs in a separate directory, and x86 programs derived from cprogs in a separate directory. Watch out - I have multiple copies of the C programs in the cprogs and the x86 directory. They should be the same, but, if in doubt, the x86 versions are the ones used to generate the assembly dot s files.
+
+05 Feb 2023 - Up to this point, all changes have either been in github or else in a gitpod workspace, with commits and pushes.
+
+05 Feb 2023 - I created a local repository on my TESC Macbook (23w-gitpodtest/gitpodtest). I did this with "git clone https://github.com/nealnnn/gitpodtest" in the parent directory. The clone created the directory gitpodtest and filled it.
+
+--------------------
 24 Nov 2022 - Created a Github account entered and committed the Readme.md file
+
 21 Jan 2023 - Created and committed this Development Notes file. I'm trying to carefully try to log my notes of learning to use git, github, and gitpod.
-21 Jan 2023 - git and github. I'm starting by assuming that a github repository serves as a cloud file system. Github is synchronized with an environment of files on a local machine
-  and git allows you to pull, change, commit, merge, and push your files to github (or bitbucket, or other cloud git server). I don't know git well enough
-  know if I'm using the right terminology. Note that I think "merge" comes about from a pull-request at another branch that needs to merge with the main
-  branch. The git system assumes you are doing development on a fully configured system (image) that has all your development tools as well as all the
-  directoies of your development environment. For example, your system would have a C-compiler, a C-code editor, a C-debugger, etc. Your local development
-  environment would have all the local project tools, such as bin files, configuration scripts, build scripts, etc.
-21 Jan 2023 - gitpod. gitpod is a cloud workspace in which you can build a system to do development. gitpod workspaces are configured with an image
-  and development tools that you need for your development. github allows you to do all your development work in the cloud rather than on your own
-  machine. When a gitpod workspace fires up, it builds your system and then allows you to pull, change, commit, merge, push with your repository.
+
+21 Jan 2023 - git and github. I'm starting by assuming that a github repository serves as a cloud file system. Github is synchronized with an environment of files on a local machine and git allows you to pull, change, commit, merge, and push your files to github (or bitbucket, or other cloud git server). I don't know git well enough know if I'm using the right terminology. Note that I think "merge" comes about from a pull-request at another branch that needs to merge with the main branch. The git system assumes you are doing development on a fully configured system (image) that has all your development tools as well as all the directoies of your development environment. For example, your system would have a C-compiler, a C-code editor, a C-debugger, etc. Your local development environment would have all the local project tools, such as bin files, configuration scripts, build scripts, etc.  
+
+21 Jan 2023 - gitpod. gitpod is a cloud workspace in which you can build a system to do development. gitpod workspaces are configured with an image and development tools that you need for your development. github allows you to do all your development work in the cloud rather than on your own machine. When a gitpod workspace fires up, it builds your system and then allows you to pull, change, commit, merge, push with your repository.
+
 21 Jan 2023 - github.dev is a lightweight editor tool provided by github that allows you to navigate files in github and also pull, edit, and commit files.
 I'm doing that now with this file. Note that I can also just raw command-line edit this file without the file browser of github.dev
+
 27 Jan 2023 - gitpod. I added a badge to my README.md to open my gitpodtest repository in gitpod. I simply put the URL of the gitpodtest repository in
 the link of the badge.
+
 27 Jan 2023 - gitpod/github. I updated my C programs to have a directory of C progs with 2 examples, the helloWorld.c, and the adder2.c example from
 the Dive Into Systems textbook, section 7.1.
+
