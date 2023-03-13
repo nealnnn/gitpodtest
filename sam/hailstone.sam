@@ -1,0 +1,30 @@
+	in
+start	jan	done
+	jaz	done
+	sta	num
+loop	sub	one
+	jaz	done
+	lda	count
+	add	one
+	sta	count
+	lda	num
+	rem	two
+	jaz	even
+odd	lda	num
+	mul	three
+	add	one
+	sta	num
+	jmp	next
+even	lda 	num
+	div	two
+	sta	num
+next	out
+	jmp	loop
+done	lda	count
+	out
+	hlt
+one	dat	01
+two	dat	02
+three	dat	03
+num	dat	00
+count	dat	00
