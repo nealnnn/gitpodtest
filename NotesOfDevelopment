@@ -1,3 +1,5 @@
+13 Mar 2023 - A remiinder. I am making changes here in gitpod and to push them to github I need to click on the node-looking icon in the menu on the right. That signals the changes that I need to commit and push. Gitpod helps me through the commit and push.
+
 13 Mar 2023 - I wanted to upload my sam assembler and simulator java programs. You really hav to upload files in a gitpod workspace rather than directly into github. Remember - github is a repository, not a file system. As such, githb expects you to organize your work in the workspace (either gitpod or on your own machine). To upload files in gitpod, go to the file explorer (an option on the left menu) and right-click on the directory you want to put it in. Select upload from the context menu.
 
 05 Feb 2023 - I put jasmin programs in a separate directory, cprogs in a separate directory, and x86 programs derived from cprogs in a separate directory. Watch out - I have multiple copies of the C programs in the cprogs and the x86 directory. They should be the same, but, if in doubt, the x86 versions are the ones used to generate the assembly dot s files.

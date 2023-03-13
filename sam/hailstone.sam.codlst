@@ -1,0 +1,30 @@
+d000	000		in	
+6016	001	start	jan	done
+5016	002		jaz	done
+301c	003		sta	num
+2019	004	loop	sub	one
+5016	005		jaz	done
+001d	006		lda	count
+1019	007		add	one
+301d	008		sta	count
+001c	009		lda	num
+901a	00a		rem	two
+5011	00b		jaz	even
+001c	00c	odd	lda	num
+701b	00d		mul	three
+1019	00e		add	one
+301c	00f		sta	num
+4014	010		jmp	next
+001c	011	even	lda	num
+801a	012		div	two
+301c	013		sta	num
+e000	014	next	out	
+4004	015		jmp	loop
+001d	016	done	lda	count
+e000	017		out	
+f000	018		hlt	
+0001	019	one	dat	01
+0002	01a	two	dat	02
+0003	01b	three	dat	03
+0000	01c	num	dat	00
+0000	01d	count	dat	00
