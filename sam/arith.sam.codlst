@@ -1,0 +1,8 @@
+0005	000	start	lda	x
+1006	001		add	y
+2007	002		sub	z
+e000	003		out	
+f000	004		hlt	
+0033	005	x	dat	33
+0011	006	y	dat	11
+0003	007	z	dat	03

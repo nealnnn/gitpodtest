@@ -1,0 +1,11 @@
+start	lda x
+	sub y
+	jan fgte
+	lda x
+	jmp done    
+fgte	lda y
+done	out     
+	hlt
+    
+x 	dat 11
+y 	dat 33

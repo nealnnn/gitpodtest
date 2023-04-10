@@ -1,0 +1,15 @@
+start	in
+	sta x
+	in
+	sta y
+	lda x
+	sub y
+	jan fgte
+	lda x
+	jmp done    
+fgte	lda y
+done	out     
+	hlt
+    
+x 	dat 00
+y 	dat 00

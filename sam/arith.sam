@@ -1,0 +1,8 @@
+start	lda x
+	add y
+	sub z
+	out
+	hlt
+x	dat	33
+y	dat	11
+z	dat	03

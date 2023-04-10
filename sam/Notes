@@ -2,5 +2,10 @@
 It worked! I uploaded the Sam assembler and simulator, compiled the Java code, and tested the
 assembler and simulator on hailstone.sam
 
+java samasm hailstone.sam
+ - produces hailstone.sam.cod, hailstone.sam.codlst
+java samsim hailstone.sam (reads from hailstone.sam.codlst)
+
 13 Mar 2023
 Remember - updload files into the workspace and then commit and sync(push) to github.
+To upload in Gitpod, right click in the explorer panel

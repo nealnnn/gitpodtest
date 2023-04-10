@@ -1,0 +1,17 @@
+d000	000		in	
+600b	001	start	jan	done
+3010	002		sta	count
+500b	003	loop	jaz	done
+000e	004		lda	total
+1010	005		add	count
+300e	006		sta	total
+0010	007		lda	count
+200f	008		sub	one
+3010	009		sta	count
+4003	00a		jmp	loop
+000e	00b	done	lda	total
+e000	00c		out	
+f000	00d		hlt	
+0000	00e	total	dat	00
+0001	00f	one	dat	01
+0003	010	count	dat	03

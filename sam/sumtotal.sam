@@ -1,0 +1,17 @@
+	in
+start	jan	done
+	sta	count
+loop	jaz	done
+	lda	total
+	add	count
+	sta	total
+	lda	count
+	sub	one
+	sta	count
+	jmp	loop
+done	lda	total
+	out
+	hlt
+total	dat	00
+one	dat	01
+count	dat	03
