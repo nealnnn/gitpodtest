@@ -1,0 +1,10 @@
+	in
+	sta	first
+	in
+	sta	second
+	lda	first
+	add	second
+	out
+	hlt
+first	dat	00
+second	dat	00
