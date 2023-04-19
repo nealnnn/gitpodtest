@@ -1,0 +1,10 @@
+d000	000	start	in	
+3008	001		sta	num1
+d000	002		in	
+3009	003		sta	num2
+0008	004		lda	num1
+1009	005		add	num2
+e000	006		out	
+f000	007		hlt	
+0000	008	num1	dat	0
+0000	009	num2	dat	0

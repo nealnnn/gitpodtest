@@ -1,0 +1,10 @@
+start	in
+	sta	num1
+	in
+	sta	num2
+	lda	num1
+	add	num2
+	out
+	hlt
+num1	dat	0
+num2	dat	0
