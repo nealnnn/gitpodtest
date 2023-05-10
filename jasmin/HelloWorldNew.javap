@@ -1,0 +1,60 @@
+Classfile /workspace/gitpodtest/jasmin/HelloWorldNew.class
+  Last modified May 4, 2023; size 399 bytes
+  MD5 checksum a4a374ca8d234d05ad19a709372d45f3
+  Compiled from "HelloWorldNew.j"
+public class HelloWorldNew
+  minor version: 3
+  major version: 45
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #25                         // HelloWorldNew
+  super_class: #7                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 2, attributes: 1
+Constant pool:
+   #1 = String             #6             // Hello World New from Jasmin!
+   #2 = NameAndType        #24:#27        // out:Ljava/io/PrintStream;
+   #3 = Utf8               ([Ljava/lang/String;)V
+   #4 = Utf8               java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               Hello World New from Jasmin!
+   #7 = Class              #4             // java/lang/Object
+   #8 = NameAndType        #5:#10         // "<init>":()V
+   #9 = Class              #19            // java/io/PrintStream
+  #10 = Utf8               ()V
+  #11 = Class              #22            // java/lang/System
+  #12 = Utf8               Code
+  #13 = Utf8               HelloWorldNew
+  #14 = Utf8               main
+  #15 = Fieldref           #11.#2         // java/lang/System.out:Ljava/io/PrintStream;
+  #16 = Utf8               SourceFile
+  #17 = Utf8               HelloWorldNew.j
+  #18 = NameAndType        #20:#26        // println:(Ljava/lang/String;)V
+  #19 = Utf8               java/io/PrintStream
+  #20 = Utf8               println
+  #21 = Methodref          #7.#8          // java/lang/Object."<init>":()V
+  #22 = Utf8               java/lang/System
+  #23 = Methodref          #9.#18         // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #24 = Utf8               out
+  #25 = Class              #13            // HelloWorldNew
+  #26 = Utf8               (Ljava/lang/String;)V
+  #27 = Utf8               Ljava/io/PrintStream;
+{
+  public HelloWorldNew();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #21                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=10, locals=10, args_size=1
+         0: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: ldc           #1                  // String Hello World New from Jasmin!
+         5: invokevirtual #23                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+         8: return
+}
+SourceFile: "HelloWorldNew.j"

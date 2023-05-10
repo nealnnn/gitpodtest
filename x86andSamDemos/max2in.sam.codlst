@@ -1,0 +1,14 @@
+d000	000	start	in	
+300c	001		sta	num1
+d000	002		in	
+300d	003		sta	num2
+000c	004		lda	num1
+200d	005		sub	num2
+6009	006		jan	n2big
+000c	007	n1big	lda	num1
+400a	008		jmp	done
+000d	009	n2big	lda	num2
+e000	00a	done	out	
+f000	00b		hlt	
+0000	00c	num1	dat	0
+0000	00d	num2	dat	0
