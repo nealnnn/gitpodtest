@@ -23,7 +23,7 @@
    f2d
 
    ; call our square method - it works on doubles
-   invokestatic Square.square(D)D
+   invokestatic Square10.square(D)D
 
    ; output the resulting square
    invokevirtual java/io/PrintStream.println(D)V

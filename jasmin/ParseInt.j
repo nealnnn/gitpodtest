@@ -1,6 +1,6 @@
-; Square.j - create and call a static method square with command line input
-
-.class public Square
+; Get one command-line argment and parse it into an int and print the int
+; 
+.class public ParseInt
 .super java/lang/Object
 
 ; standard initializer
@@ -18,31 +18,19 @@
    ; push System.out onto the stack
    getstatic java/lang/System.out Ljava/io/PrintStream;
 
-   ; get command line input value to square
+   ; get the args array reference at local 0 for static method main
    aload 0
+
+   ; get the first argument String at array slot 0
    iconst_0
    aaload
-
-   ; convert the command-line string argument to int
+   
+   ; parse the argument string into an int
    invokestatic java.lang.Integer.parseInt(Ljava.lang.String;)I
 
-   ; call our square method - it works on doubles
-   invokestatic Square.square(I)I
-
-   ; output the resulting square
+   ; print the argument int
    invokevirtual java/io/PrintStream.println(I)V
 
    ; done
    return
 .end method
-
-.method public static square(I)I
-  .limit stack 2
-  .limit locals 1
-
-  iload 0
-  iload 0
-  imul
-
-  ireturn
-  .end method
