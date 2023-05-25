@@ -38,7 +38,6 @@
    ; convert the second command-line string argument to int
    invokestatic java.lang.Integer.parseInt(Ljava.lang.String;)I
 
-
    ; call our max method
    invokestatic Max2.max(II)I
 
@@ -55,8 +54,15 @@
 
   iload 0
   iload 1
+ 
+  if_icmpge firstIsMax
+secondIsMax:
+  iload 1
+  goto done
 
-  ; TODO Figure out which one is largest and return that one  
+firstIsMax:
+  iload 0
 
+done:
   ireturn
   .end method
